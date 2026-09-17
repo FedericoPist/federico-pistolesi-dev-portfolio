@@ -1,0 +1,3 @@
+[submodule "projects/gareit-radar"]
+	path = projects/gareit-radar
+	url = https://github.com/FedericoPist/gareit-radar
