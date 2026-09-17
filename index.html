@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio di Federico Pistolesi: applicazioni web, API e automazioni sviluppate con Python, PHP e tecnologie moderne.">
+  <meta name="theme-color" content="#11130f">
+  <meta property="og:title" content="Federico Pistolesi — Developer Portfolio">
+  <meta property="og:description" content="Progetti full-stack, API e automazioni costruiti per risolvere problemi reali.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://federicopist.github.io/federico-pistolesi-dev-portfolio/">
+  <title>Federico Pistolesi — Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Vai al contenuto</a>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Torna all'inizio">
+      <span class="brand-mark" aria-hidden="true">FP</span>
+      <span>Federico Pistolesi</span>
+    </a>
+    <nav aria-label="Navigazione principale">
+      <a href="#progetti">Progetti</a>
+      <a href="https://github.com/FedericoPist" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Developer portfolio</p>
+        <h1>Costruisco prodotti digitali che trasformano dati complessi in strumenti semplici.</h1>
+        <p class="intro">Sviluppo applicazioni full-stack, API e automazioni con attenzione a solidità, sicurezza e qualità dell'esperienza.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#progetti">Esplora i progetti</a>
+          <a class="button button-ghost" href="https://github.com/FedericoPist" target="_blank" rel="noreferrer">Profilo GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+
+      <div class="signal-card" aria-label="Competenze principali">
+        <div class="signal-header">
+          <span>focus.txt</span>
+          <span class="window-dots" aria-hidden="true">● ● ●</span>
+        </div>
+        <div class="signal-body">
+          <p><span>01</span> Backend &amp; API</p>
+          <p><span>02</span> Web applications</p>
+          <p><span>03</span> Data automation</p>
+          <p><span>04</span> Docker &amp; deployment</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="progetti">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Selected work</p>
+          <h2>Progetti</h2>
+        </div>
+        <p>Applicazioni progettate e sviluppate end-to-end, dal modello dati all'interfaccia.</p>
+      </div>
+
+      <article class="project-card">
+        <div class="project-index" aria-hidden="true">01</div>
+        <div class="project-content">
+          <div class="project-topline">
+            <span class="project-label">Full-stack · GovTech</span>
+            <span class="project-state"><span class="status-dot" aria-hidden="true"></span> Progetto attivo</span>
+          </div>
+          <h3>GareIT Radar</h3>
+          <p class="project-description">Piattaforma che raccoglie, normalizza e rende ricercabili i bandi di gara pubblicati da oltre 35 portali della Pubblica Amministrazione italiana.</p>
+
+          <div class="project-details">
+            <div>
+              <span class="detail-label">Il problema</span>
+              <p>Dati frammentati tra portali diversi, formati incoerenti e monitoraggio manuale.</p>
+            </div>
+            <div>
+              <span class="detail-label">La soluzione</span>
+              <p>Scraping asincrono, deduplicazione, ricerca avanzata, API REST e dashboard diagnostica.</p>
+            </div>
+          </div>
+
+          <ul class="tech-list" aria-label="Tecnologie utilizzate">
+            <li>Python</li>
+            <li>FastAPI</li>
+            <li>Laravel</li>
+            <li>MariaDB</li>
+            <li>Playwright</li>
+            <li>Docker</li>
+          </ul>
+
+          <a class="project-link" href="https://github.com/FedericoPist/gareit-radar" target="_blank" rel="noreferrer">
+            Esplora il codice su GitHub <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+
+        <div class="project-visual" aria-label="Anteprima concettuale della dashboard GareIT Radar">
+          <div class="visual-toolbar">
+            <span>GareIT / Radar</span>
+            <span class="live-pill">LIVE</span>
+          </div>
+          <div class="visual-stats">
+            <div><strong>35+</strong><span>portali</span></div>
+            <div><strong>REST</strong><span>API</span></div>
+            <div><strong>24/7</strong><span>monitoraggio</span></div>
+          </div>
+          <div class="visual-list">
+            <div class="visual-row"><span class="row-dot"></span><span class="row-line long"></span><span class="row-tag">Attiva</span></div>
+            <div class="visual-row"><span class="row-dot"></span><span class="row-line medium"></span><span class="row-tag">Attiva</span></div>
+            <div class="visual-row"><span class="row-dot muted"></span><span class="row-line short"></span><span class="row-tag muted-tag">Chiusa</span></div>
+            <div class="visual-row"><span class="row-dot"></span><span class="row-line long"></span><span class="row-tag">Attiva</span></div>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>Progettato e sviluppato da Federico Pistolesi.</p>
+    <a href="#top">Torna su <span aria-hidden="true">↑</span></a>
+  </footer>
+</body>
+</html>
