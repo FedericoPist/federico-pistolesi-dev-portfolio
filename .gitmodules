@@ -4,3 +4,6 @@
 [submodule "projects/priceadv"]
 	path = projects/priceadv
 	url = https://github.com/FedericoPist/priceadv
+[submodule "projects/link-discovery"]
+	path = projects/link-discovery
+	url = https://github.com/FedericoPist/link-discovery

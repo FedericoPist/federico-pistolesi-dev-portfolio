@@ -32,6 +32,18 @@ dashboard dei competitor ed esportazione CSV.
 - [Repository originale](https://github.com/FedericoPist/priceadv)
 - Percorso nel portfolio: `projects/priceadv`
 
+### Link Discovery
+
+Applicazione locale per individuare link esterni non funzionanti e opportunità
+di broken link building. Esplora pagine e sitemap, conserva anchor text e
+metadati SEO, rispetta robots.txt e distingue link mancanti, accessi negati ed
+errori temporanei. Include scansioni riprendibili, storico e report CSV filtrabili.
+
+**Stack:** PHP, Laravel, Blade, CSS, SQLite, Symfony DomCrawler e PHPUnit.
+
+- [Repository originale](https://github.com/FedericoPist/link-discovery)
+- Percorso nel portfolio: `projects/link-discovery`
+
 ## Clonare il portfolio
 
 Per scaricare anche tutti i progetti collegati:
