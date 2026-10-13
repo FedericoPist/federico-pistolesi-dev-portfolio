@@ -1,3 +1,6 @@
 [submodule "projects/gareit-radar"]
 	path = projects/gareit-radar
 	url = https://github.com/FedericoPist/gareit-radar
+[submodule "projects/priceadv"]
+	path = projects/priceadv
+	url = https://github.com/FedericoPist/priceadv

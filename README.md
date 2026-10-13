@@ -20,6 +20,18 @@ Laravel, Blade, JavaScript, CSS, MariaDB, SQLite, Docker Compose e Nginx.
 - [Repository originale](https://github.com/FedericoPist/gareit-radar)
 - Percorso nel portfolio: `projects/gareit-radar`
 
+### PriceAdv
+
+Applicazione per monitorare i prezzi di un catalogo WooCommerce e confrontarli
+con le schede prodotto sponsorizzate nella SERP Google. Include importazione da
+URL e CSV, ricerche in Chrome, verifica delle corrispondenze, storico dei prezzi,
+dashboard dei competitor ed esportazione CSV.
+
+**Stack:** PHP, Laravel, Blade, JavaScript, Node.js, SQLite e Chrome DevTools Protocol.
+
+- [Repository originale](https://github.com/FedericoPist/priceadv)
+- Percorso nel portfolio: `projects/priceadv`
+
 ## Clonare il portfolio
 
 Per scaricare anche tutti i progetti collegati:
